@@ -1,3 +1,5 @@
+# Used to solve the read error for cemetery data
+
 import csv
 with open('cemetery.csv') as csv_file:
     csv_reader = csv.reader(csv_file, delimiter='\t')
